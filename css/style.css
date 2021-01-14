@@ -1,0 +1,111 @@
+:root {
+  --primary-text-color: #212112;
+  --tilt-color: #757575;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+  --background-footer: #2f303a;
+  --footer-nav: rgba(255, 255, 255, 60%);
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.body {
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+}
+
+/* цвет заголовков #212112 */
+/* цвет дополнительный #2196F3 */
+/* цвет основной #757575 */
+/* цвет в Hero #FFFFFF */
+
+/* color nav*/
+
+.icon-blue {
+  color: var(--accent-color);
+}
+.icon-bk {
+  color: var(--primary-text-color);
+}
+.icon-wh {
+  color: var(--background-color);
+}
+.site-studio {
+  color: var(--accent-color);
+}
+/*nav-hover*/
+.site-nav {
+  color: var(--primary-text-color);
+}
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--accent-color);
+}
+.points-title {
+  color: var(--tilt-color);
+}
+.addres-title {
+  color: var(--tilt-color);
+}
+.addres-title:hover,
+.addres-title:focus {
+  color: var(--accent-color);
+}
+
+/*hero*/
+.hero-section {
+  background-color: var(--background-footer);
+}
+.hero-text {
+  color: var(--background-color);
+}
+
+.hero-button-bgk {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+  border: none;
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+}
+
+/*Comand*/
+.comand-title {
+  color: var(--tilt-color);
+}
+
+/*portfolio*/
+
+.site-portfolio {
+  color: var(--accent-color);
+}
+
+/*hero-button*/
+.hero-button {
+  border: none;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+
+/*image*/
+.text-prophecy {
+  color: var(--tilt-color);
+}
+
+/*footer*/
+.footer-list {
+  background-color: var(--background-footer);
+}
+.footer-adress {
+  color: var(--background-color);
+}
+.footer-nav {
+  color: var(--footer-nav);
+}
