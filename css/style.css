@@ -1,3 +1,9 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
 :root {
   --primary-text-color: #212112;
   --tilt-color: #757575;
@@ -15,6 +21,17 @@
   color: var(--primary-text-color);
   background-color: var(--background-color);
 }
+:visited {
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
 
 /* цвет заголовков #212112 */
 /* цвет дополнительный #2196F3 */
@@ -22,7 +39,16 @@
 /* цвет в Hero #FFFFFF */
 
 /* color nav*/
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
 
+  letter-spacing: 0.03em;
+}
 .icon-blue {
   color: var(--accent-color);
 }
@@ -34,19 +60,92 @@
 }
 .site-studio {
   color: var(--accent-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
 }
 /*nav-hover*/
 .site-nav {
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 .site-nav:hover,
 .site-nav:focus {
   color: var(--accent-color);
 }
+
+/*section points*/
+.points-heading {
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
 .points-title {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.714;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
   color: var(--tilt-color);
 }
+
+/*section occupation*/
+.occupation-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*sectoin comand*/
+.comand-heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.comand-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.comand-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--tilt-color);
+}
+
 .addres-title {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
   color: var(--tilt-color);
 }
 .addres-title:hover,
@@ -59,23 +158,35 @@
   background-color: var(--background-footer);
 }
 .hero-text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--background-color);
 }
 
 .hero-button-bgk {
-  color: var(--background-color);
   background-color: var(--accent-color);
-  border: none;
-  font-size: 16px;
+  /*position: absolute;*/
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
-}
-
-/*Comand*/
-.comand-title {
-  color: var(--tilt-color);
+  left: 774px;
+  top: 465px;
+  /*text*/
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--background-color);
 }
 
 /*portfolio*/
@@ -85,17 +196,40 @@
 }
 
 /*hero-button*/
-.hero-button {
+.button-nav-portfolio {
   border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.hero-button:hover,
-.hero-button:focus {
+.button-nav-portfolio:hover,
+.button-nav-portfolio:focus {
   color: var(--background-color);
   background-color: var(--accent-color);
 }
 
 /*image*/
+.project-heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
 .text-prophecy {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
   color: var(--tilt-color);
 }
 
@@ -104,8 +238,16 @@
   background-color: var(--background-footer);
 }
 .footer-adress {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
   color: var(--background-color);
 }
 .footer-nav {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
   color: var(--footer-nav);
 }
